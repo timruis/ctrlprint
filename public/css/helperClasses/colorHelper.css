@@ -1,0 +1,18 @@
+.nav-red {
+  background-color: #e4051f !important;
+}
+
+
+/* NAV COLORS */
+.nav-link-white {
+  color: #fff;
+}
+
+.nav-link-white:hover {
+  color: #d1d1d1;
+}
+
+/* TEXT COLORS */
+.text-grey {
+  color: #707070;
+}

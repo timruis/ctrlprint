@@ -1,0 +1,31 @@
+extends ./public/html/partials/master.pug
+
+block content
+  .landing-container
+  
+  .text-center.mt-3
+    h1.display-4.text-grey Producten
+  
+  .container.mt-3
+    .card-deck
+
+      .card.border-white.mr-0.ml-0
+        a(href="product.html")
+          .card.border-radius-big
+            img.card-img-top.border-radius-big(src="./public/img/zitzak-blanco.png")
+          p.card-products-text.text-grey.pl-3 Zitzak
+          p.card-products-text-small.text-grey.pl-3 &euro; 24,99
+
+      .card.border-white.mr-0.ml-0
+        a(href="#")
+          .card.border-radius-big
+            img.card-img-top.border-radius-big(src="./public/img/foto-op-hout.png")
+          p.card-products-text.text-grey.pl-3 Foto op hout
+          p.card-products-text-small.text-grey.pl-3 &euro; 24,99
+
+      .card.border-white.mr-0.ml-0
+        a(href="#")
+          .card.border-radius-big
+            img.card-img-top.border-radius-big(src="./public/img/lichtbakposter-blanco.png")
+          p.card-products-text.text-grey.pl-3.mb-0 Lichtbak
+          p.card-products-text-small.text-grey.pl-3 &euro; 24,99
